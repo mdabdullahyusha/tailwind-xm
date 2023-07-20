@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myBtn {
+  @apply text-center bg-primary text-white rounded font-inter py-0 h-[45px] leading-[45px] px-[15px];
+}
+/* .sectionHead {
+  @apply pt-[135px] w-[830px] mx-auto;
+} */
+.contentMain1 {
+  @apply text-center lg:w-[830px] md:w-[620px] mx-auto leading-[65px];
+}
+.contentMain {
+  @apply text-center lg:w-[830px] md:w-[620px] mx-auto leading-[65px] pt-[135px];
+}
+.donateCon {
+  @apply w-[100%] h-[125px] flex justify-center items-center bg-[#f1f1f1] rounded-md hover:bg-[rgba(255,89,89,.3)] transition duration-300 cursor-pointer border-2 border-[transparent] border-solid hover:border-primary;
+}
+
+.donateConH2 {
+  @apply font-inter text-[30px] text-[#707070] font-bold;
+}
+
+.planCon {
+  @apply px-5 py-16 rounded-lg;
+}
+.planConH3 {
+  @apply font-poppins text-2xl font-semibold pt-7 pb-5;
+}
+.planConP {
+  @apply font-poppins text-[16px] text-[#707070];
+}
